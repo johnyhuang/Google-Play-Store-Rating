@@ -1,6 +1,7 @@
 # Model Development
-[image](/Image/Development_Model_Image.png) <- model development snippet
-For reference to all the phases and steps explained in this documentation, [click here.](link) <- link to the .ipynb snippet
+![Model Development Image](https://github.com/johnyhuang/Google-Play-Store-Rating/blob/master/Images/Model_Development_Image.png)
+
+For reference to all the phases and steps explained in this documentation, [click here.](https://github.com/johnyhuang/Google-Play-Store-Rating/blob/master/Google%20Play%20Store.ipynb) 
 
 ## Data Acquisition Phase
 This project uses the ‘googleplaystore.csv’ file obtained from Kaggle. The entire dataset contains all the relevant data with all types of unfiltered and uncleansed features of random Google Playstore applications. The following are the features contained in the dataset:
@@ -17,7 +18,7 @@ This project uses the ‘googleplaystore.csv’ file obtained from Kaggle. The e
 * Last Updated
 * Current Version
 * Android Version
-You can find all the raw data [here.](link to the .csv dataset)
+You can find all the raw data [here.](https://github.com/johnyhuang/Google-Play-Store-Rating/tree/master/Data)
 
 ## Data Cleansing
 Data Cleansing phase includes removing all rows with missing data, transforming the sizes into a uniformed format, transforming the types into a binary format, relabeling Content Rating for easier handling, dropping features that most likely don’t affect Rating prediction, and transforming Price into a float value. 
