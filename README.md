@@ -34,11 +34,17 @@ pip install matplotlib
 ```
 
 #### 3. Running the Application
-Run the following command in your terminal to start the app:
+First of all, you need to make sure you're in the parent directory of the Google Play Store Rating App. Then, run the following command in your terminal to start the app:
 `$ python UAS_Frontech.py`
 You should see something like this in the terminal:
 ```
-I should see some code here
+Running on http://127.0.0.1:8050/
+Debugger PIN: 828-302-482
+ * Serving Flask app "UAS_FronTech" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
 ```
 When it appears, open your browser and go to ‘http://127.0.0.1:8050’ to access the application.
 
