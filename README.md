@@ -45,6 +45,8 @@ When it appears, open your browser and go to ‘http://127.0.0.1:8050’ to acce
 ## Home Screen
 The home screen will look like this:
 
+![Web App Image](https://github.com/johnyhuang/Google-Play-Store-Rating/blob/master/Images/Web_App_Image.png)
+
 The following will roughly define the individual functions of the input on our Dash.
 ### Content Rating Input
 Content Rating will be comprised of a dropdown box with all the relevant options that represent content rating.
@@ -64,13 +66,15 @@ This will show the output of the predicted Rating, based on the features input b
 
 ## Model Development
 
-[This is where the image goes](https://github.com/johnyhuang/img/01) <- model development snippet
+![Model Development Image](https://github.com/johnyhuang/Google-Play-Store-Rating/blob/master/Images/Model_Development_Image.png) 
 
-The entire process of developing the models that we use can be represented through the diagram as shown above. The models used in this project are ‘Linear Regression’, ‘Support-Vector Machine’ and ‘Decision Tree’ models. The raw code from acquiring the data, cleansing it, all the way to model evaluation can be accessed through the ‘Data’ sub-directory in this repository. If you’d like to understand more about the model development, you can check the documentation [here.](https://github.com/johnyhuang/documentation/model_readme.md) <- link to githubs model development documentation
-
+The entire process of developing the models that we use can be represented through the diagram as shown above. The models used in this project are ‘Linear Regression’, ‘Support-Vector Machine’ and ‘Decision Tree’ models. The raw code from acquiring the data, cleansing it, all the way to model evaluation can be accessed through the ‘Data’ sub-directory in this repository. If you’d like to understand more about the model development, you can check the documentation [here.](https://github.com/johnyhuang/Google-Play-Store-Rating/blob/master/Model_Development.md)
 
 ## Front-end Development
-Front-end is developed using [Dash] (LINK TO THE FRONT END SNIPPET). There are a few components in the Dash, responsible for creating the UI shown on the image above.
+
+![Front End Image](https://github.com/johnyhuang/Google-Play-Store-Rating/blob/master/Images/Front_End_Image.png)
+
+Front-end is developed using [Dash](https://github.com/johnyhuang/Google-Play-Store-Rating/blob/master/UAS_FronTech.py). There are a few components in the Dash, responsible for creating the UI shown on the image above.
 * Dash Core Components
 * Dash Html Components
 * Dash Dependencies
